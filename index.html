@@ -1,122 +1,734 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SM Riyad Sagor | Digital Marketing Professional</title>
-  <meta name="description" content="Learn about SM Riyad Sagor, a digital marketing professional focused on SEO, e-commerce marketing, and affiliate marketing.">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://YOUR-DOMAIN.com/">
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="SM Riyad Sagor | Digital Marketing Professional">
-  <meta property="og:description" content="Professional profile, digital marketing skills, and selected work of SM Riyad Sagor.">
-  <meta property="og:url" content="https://YOUR-DOMAIN.com/">
-  <meta name="theme-color" content="#101827">
-  <style>
-    :root{--bg:#0b1220;--panel:#121d30;--text:#edf3ff;--muted:#aab8cf;--accent:#63d6b2;--line:#263650}
-    *{box-sizing:border-box} html{scroll-behavior:smooth}
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(140deg,#0b1220,#101d31);color:var(--text);line-height:1.65}
-    .wrap{width:min(1050px,92%);margin:auto}
-    header{padding:22px 0;border-bottom:1px solid var(--line)}
-    nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
-    .brand{font-weight:800;letter-spacing:.4px;color:var(--accent);font-size:1.2rem}
-    nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:.95rem}
-    nav a:hover,.btn:hover{color:var(--accent)}
-    .hero{padding:82px 0 66px;display:grid;grid-template-columns:1.5fr .8fr;gap:35px;align-items:center}
-    .eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
-    h1{font-size:clamp(2.5rem,6vw,4.5rem);line-height:1.08;margin:14px 0}
-    h2{font-size:2rem;margin:0 0 18px}
-    p{color:var(--muted)}
-    .lead{font-size:1.15rem;max-width:650px}
-    .profile{background:linear-gradient(160deg,#1a2a43,#101827);border:1px solid var(--line);border-radius:24px;padding:30px;text-align:center}
-    .avatar{width:150px;height:150px;border-radius:50%;margin:0 auto 18px;background:#263650;display:grid;place-items:center;color:var(--accent);font-size:2.6rem;font-weight:800;border:3px solid var(--accent)}
-    .profile small{color:var(--muted)}
-    .btn{display:inline-block;margin:12px 10px 0 0;padding:11px 18px;border-radius:9px;background:var(--accent);color:#092019;text-decoration:none;font-weight:700}
-    .btn.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}
-    section{padding:52px 0;border-top:1px solid var(--line)}
-    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
-    .card h3{margin:0 0 8px;color:var(--accent)}
-    .tags{display:flex;flex-wrap:wrap;gap:10px}
-    .tag{border:1px solid var(--line);border-radius:999px;padding:8px 13px;color:var(--text);background:#121d30}
-    .note{border-left:3px solid var(--accent);padding:12px 16px;background:#101d31;border-radius:0 10px 10px 0}
-    footer{padding:30px 0;color:var(--muted);border-top:1px solid var(--line);font-size:.9rem}
-    @media(max-width:720px){.hero{grid-template-columns:1fr;padding:55px 0}.cards{grid-template-columns:1fr}nav a{margin:0 10px 0 0}}
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"SM Riyad Sagor",
-    "jobTitle":"Digital Marketing Professional",
-    "url":"https://YOUR-DOMAIN.com/",
-    "sameAs":[
-      "ADD-YOUR-LINKEDIN-URL",
-      "ADD-YOUR-FACEBOOK-PAGE-URL"
-    ],
-    "knowsAbout":[
-      "Search Engine Optimization",
-      "On-page SEO",
-      "Off-page SEO",
-      "E-commerce Marketing",
-      "Affiliate Marketing"
-    ]
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riyad Sagor | Digital Creative</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #08080d;
+  color: #f5f5f7;
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --purple: #a78bfa;
+  --white: #f5f5f7;
+  --muted: #92929e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: min(1180px, 90%);
+  margin: auto;
+}
+
+/* NAVIGATION */
+
+nav {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: var(--purple);
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: #aaaab5;
+  font-size: 14px;
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.nav-btn {
+  padding: 11px 20px;
+  border: 1px solid #33333e;
+  border-radius: 30px;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.nav-btn:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
+/* HERO */
+
+.hero {
+  min-height: 87vh;
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  align-items: center;
+  gap: 30px;
+  padding: 55px 0;
+}
+
+.intro {
+  color: var(--purple);
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: clamp(58px, 8vw, 110px);
+  font-weight: 700;
+  letter-spacing: -7px;
+  line-height: .98;
+}
+
+.hero h1 span {
+  background: linear-gradient(120deg, #fff 5%, #b5a0ff 50%, #7654c9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-description {
+  margin-top: 28px;
+  max-width: 480px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 35px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 15px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.btn-primary {
+  background: #f4f0ff;
+  color: #111;
+}
+
+.btn-primary:hover {
+  background: var(--purple);
+  transform: translateY(-3px);
+}
+
+.btn-outline {
+  border: 1px solid #33333e;
+  color: white;
+}
+
+.btn-outline:hover {
+  border-color: var(--purple);
+}
+
+/* 3D ART */
+
+.visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 430px;
+  perspective: 1000px;
+}
+
+.orbit {
+  position: relative;
+  width: 330px;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  animation: float 5s ease-in-out infinite;
+}
+
+.orbit::before {
+  content: "";
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background: #8b5cf6;
+  filter: blur(100px);
+  opacity: .3;
+}
+
+.orbit-ring {
+  position: absolute;
+  width: 340px;
+  height: 130px;
+  border: 1px solid rgba(177,147,255,.5);
+  border-radius: 50%;
+  transform: rotate(-30deg);
+}
+
+.ring2 {
+  transform: rotate(60deg);
+  border-color: rgba(255,255,255,.15);
+}
+
+.ring3 {
+  transform: rotate(110deg);
+  border-color: rgba(177,147,255,.25);
+}
+
+.core {
+  width: 155px;
+  height: 155px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(55deg) rotateZ(45deg);
+  animation: rotateCore 12s linear infinite;
+}
+
+.core-face {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  border: 1px solid rgba(255,255,255,.5);
+  background: linear-gradient(135deg,
+    rgba(167,139,250,.55),
+    rgba(27,22,48,.8));
+  box-shadow: 0 0 35px rgba(139,92,246,.2);
+  backdrop-filter: blur(20px);
+}
+
+.core-face:nth-child(1) { transform: translateZ(77px); }
+.core-face:nth-child(2) { transform: rotateY(180deg) translateZ(77px); }
+.core-face:nth-child(3) { transform: rotateY(90deg) translateZ(77px); }
+.core-face:nth-child(4) { transform: rotateY(-90deg) translateZ(77px); }
+.core-face:nth-child(5) { transform: rotateX(90deg) translateZ(77px); }
+.core-face:nth-child(6) { transform: rotateX(-90deg) translateZ(77px); }
+
+.orbit-label {
+  position: absolute;
+  padding: 11px 16px;
+  border-radius: 12px;
+  background: rgba(20,20,29,.85);
+  border: 1px solid rgba(255,255,255,.1);
+  backdrop-filter: blur(15px);
+  font-size: 12px;
+  color: white;
+}
+
+.label1 {
+  top: 10px;
+  right: 0;
+}
+
+.label2 {
+  bottom: 30px;
+  left: 0;
+}
+
+.label3 {
+  bottom: 5px;
+  right: 15px;
+  color: var(--purple);
+}
+
+/* INFO BAR */
+
+.info-bar {
+  border-top: 1px solid #22222b;
+  border-bottom: 1px solid #22222b;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 0;
+  margin-bottom: 80px;
+}
+
+.info-item {
+  text-align: center;
+  border-right: 1px solid #22222b;
+}
+
+.info-item:last-child {
+  border: none;
+}
+
+.info-item h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.info-item p {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* SECTIONS */
+
+.section {
+  padding: 90px 0;
+}
+
+.section-heading {
+  font-size: 45px;
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+}
+
+.section-sub {
+  color: var(--muted);
+  margin-bottom: 45px;
+  line-height: 1.8;
+}
+
+/* ABOUT */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.about-card {
+  background: #111118;
+  border: 1px solid #25232e;
+  border-radius: 18px;
+  padding: 35px;
+  transition: .4s;
+}
+
+.about-card:hover {
+  border-color: #7661ae;
+  transform: translateY(-5px);
+}
+
+.about-card h3 {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.about-card p {
+  color: var(--muted);
+  line-height: 1.9;
+  font-size: 14px;
+}
+
+.about-highlight {
+  color: var(--purple);
+}
+
+/* SERVICES */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service {
+  background: #111118;
+  padding: 30px;
+  border: 1px solid #25232e;
+  border-radius: 16px;
+  transition: .4s;
+}
+
+.service:hover {
+  transform: perspective(800px) rotateX(4deg) translateY(-8px);
+  border-color: #8b5cf6;
+  box-shadow: 0 20px 50px rgba(139,92,246,.08);
+}
+
+.service-number {
+  color: #77717f;
+  font-size: 12px;
+}
+
+.service h3 {
+  margin: 25px 0 12px;
+  font-size: 21px;
+}
+
+.service p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* CONTACT */
+
+.contact {
+  text-align: center;
+  padding: 100px 25px;
+  border: 1px solid #272431;
+  background:
+    radial-gradient(circle at center, #1b1530 0%, #0b0a11 65%);
+  border-radius: 24px;
+  margin-bottom: 70px;
+}
+
+.contact h2 {
+  font-size: clamp(35px, 6vw, 70px);
+  letter-spacing: -3px;
+}
+
+.contact h2 span {
+  color: var(--purple);
+}
+
+.contact p {
+  color: var(--muted);
+  margin: 20px 0 30px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.socials a {
+  padding: 12px 20px;
+  border: 1px solid #35313e;
+  border-radius: 30px;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.socials a:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
+/* FOOTER */
+
+footer {
+  padding: 25px 0;
+  border-top: 1px solid #22222b;
+  color: #77717f;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* REVEAL */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: .8s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ANIMATION */
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+}
+
+@keyframes rotateCore {
+  from { transform: rotateX(55deg) rotateZ(0deg); }
+  to { transform: rotateX(55deg) rotateZ(360deg); }
+}
+
+/* MOBILE */
+
+@media(max-width:850px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 120px;
   }
-  </script>
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .visual {
+    min-height: 350px;
+  }
+
+  .orbit {
+    transform: scale(.85);
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:550px) {
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 11px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 56px;
+    letter-spacing: -4px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-item h3 {
+    font-size: 18px;
+  }
+
+  .info-item p {
+    font-size: 10px;
+  }
+
+  .section-heading {
+    font-size: 34px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+</style>
 </head>
+
 <body>
-<header><div class="wrap"><nav>
-  <div class="brand">SM RIYAD SAGOR</div>
-  <div><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
-</nav></div></header>
-<main class="wrap">
-  <div class="hero">
-    <div>
-      <div class="eyebrow">Digital Marketing Professional</div>
-      <h1>SM Riyad Sagor</h1>
-      <p class="lead">I work in digital marketing, with a focus on search engine optimization, e-commerce marketing, and affiliate marketing. This website is my professional profile and a place to share my work and learning.</p>
-      <a class="btn" href="#contact">Contact me</a>
-      <a class="btn secondary" href="#about">About me</a>
-    </div>
-    <aside class="profile">
-      <div class="avatar">SM</div>
-      <h2 style="font-size:1.35rem;margin:0">SM Riyad Sagor</h2>
-      <small>Digital Marketing Professional</small>
-      <p>SEO · E-commerce · Affiliate Marketing</p>
-    </aside>
+
+<div class="container">
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#" class="logo">RIYAD<span>.</span></a>
+
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Skills</a>
+    <a href="#contact">Contact</a>
   </div>
 
-  <section id="about">
-    <div class="eyebrow">Profile</div><h2>About Me</h2>
-    <p>My name is SM Riyad Sagor. I am interested in digital marketing and developing practical skills that help businesses build their online presence. My areas of focus include on-page SEO, off-page SEO, e-commerce marketing, and affiliate marketing.</p>
-    <p class="note">This profile is intended to share accurate information about my professional interests, skills, projects, and experience. Details will be updated as I complete work and build a verifiable portfolio.</p>
-  </section>
+  <a href="#contact" class="nav-btn">Let's Talk ↗</a>
+</nav>
 
-  <section id="skills">
-    <div class="eyebrow">What I do</div><h2>Skills & Areas of Focus</h2>
-    <div class="tags">
-      <span class="tag">On-page SEO</span><span class="tag">Off-page SEO</span>
-      <span class="tag">E-commerce Marketing</span><span class="tag">Affiliate Marketing</span>
-      <span class="tag">Digital Marketing</span>
+<!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="hero-text">
+    <div class="intro">Digital Creator & Marketer</div>
+
+    <h1>SM Riyad<br><span>Sagor.</span></h1>
+
+    <p class="hero-description">
+      I transform ideas into digital experiences.
+      Passionate about SEO, digital marketing,
+      creative strategy and helping brands grow
+      in the digital world.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#services" class="btn btn-primary">Explore My Work ↗</a>
+      <a href="#about" class="btn btn-outline">About Me</a>
     </div>
-  </section>
+  </div>
 
-  <section id="work">
-    <div class="eyebrow">Portfolio</div><h2>Selected Work</h2>
-    <div class="cards">
-      <article class="card"><h3>SEO Projects</h3><p>Add a real website or SEO project here, including your role, work completed, and measurable outcome where available.</p></article>
-      <article class="card"><h3>E-commerce Marketing</h3><p>Describe an actual store or campaign you worked on. Include the objective, your contribution, and verified results.</p></article>
-      <article class="card"><h3>Affiliate Marketing</h3><p>Add the affiliate platforms, content, or campaigns you have genuinely worked with. Do not list experience you do not have.</p></article>
+  <!-- 3D OBJECT -->
+  <div class="visual">
+    <div class="orbit">
+      <div class="orbit-ring"></div>
+      <div class="orbit-ring ring2"></div>
+      <div class="orbit-ring ring3"></div>
+
+      <div class="core">
+        <div class="core-face"></div>
+        <div class="core-face"></div>
+        <div class="core-face"></div>
+        <div class="core-face"></div>
+        <div class="core-face"></div>
+        <div class="core-face"></div>
+      </div>
+
+      <div class="orbit-label label1">✦ Creative Mind</div>
+      <div class="orbit-label label2">SEO Specialist</div>
+      <div class="orbit-label label3">Digital Growth</div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="contact">
-    <div class="eyebrow">Get in touch</div><h2>Contact</h2>
-    <p>For professional enquiries, connect with me through my verified social or professional profiles.</p>
-    <p><a class="btn" href="ADD-YOUR-LINKEDIN-URL">LinkedIn</a><a class="btn secondary" href="ADD-YOUR-FACEBOOK-PAGE-URL">Facebook</a></p>
-    <p>Email: ADD-YOUR-PUBLIC-BUSINESS-EMAIL</p>
-  </section>
-</main>
-<footer><div class="wrap">© <span id="year">2026</span> SM Riyad Sagor. All rights reserved. · Replace all placeholder links and publish only accurate information.</div></footer>
+<!-- INFO -->
+<div class="info-bar">
+  <div class="info-item">
+    <h3>SEO</h3>
+    <p>Organic Growth</p>
+  </div>
+
+  <div class="info-item">
+    <h3>Creative</h3>
+    <p>Digital Strategy</p>
+  </div>
+
+  <div class="info-item">
+    <h3>Digital</h3>
+    <p>Online Presence</p>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section reveal" id="about">
+  <h2 class="section-heading">About <span class="about-highlight">Me.</span></h2>
+  <p class="section-sub">A little introduction about who I am.</p>
+
+  <div class="about-grid">
+    <div class="about-card">
+      <h3>Who I Am</h3>
+      <p>
+        I'm SM Riyad Sagor, a passionate digital marketer
+        interested in SEO, online branding, content strategy
+        and modern digital experiences. I love learning new
+        technologies and creating ideas that make an impact.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>My Vision</h3>
+      <p>
+        My goal is to build meaningful digital experiences,
+        develop creative strategies and help businesses
+        grow through the power of the internet.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section reveal" id="services">
+  <h2 class="section-heading">What I <span class="about-highlight">Do.</span></h2>
+  <p class="section-sub">My skills and areas of interest.</p>
+
+  <div class="services-grid">
+
+    <div class="service">
+      <div class="service-number">01 / SEARCH</div>
+      <h3>Search Engine Optimization</h3>
+      <p>Keyword research, on-page optimization, technical SEO and organic visibility.</p>
+    </div>
+
+    <div class="service">
+      <div class="service-number">02 / STRATEGY</div>
+      <h3>Digital Marketing</h3>
+      <p>Creative marketing strategies to help brands build their online presence.</p>
+    </div>
+
+    <div class="service">
+      <div class="service-number">03 / CREATIVE</div>
+      <h3>Social Media</h3>
+      <p>Content planning, branding and social media growth strategies.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact reveal" id="contact">
+  <h2>Let's create<br><span>something great.</span></h2>
+
+  <p>Have a project or an idea? Let's connect.</p>
+
+  <a href="mailto:your-email@example.com" class="btn btn-primary">
+    Get In Touch ↗
+  </a>
+
+  <div class="socials">
+    <a href="https://facebook.com/" target="_blank">Facebook ↗</a>
+    <a href="https://instagram.com/" target="_blank">Instagram ↗</a>
+    <a href="https://linkedin.com/" target="_blank">LinkedIn ↗</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 SM Riyad Sagor</span>
+  <span>Designed for the digital future.</span>
+</footer>
+
+</div>
+
+<!-- SCROLL ANIMATION -->
+<script>
+const revealElements = document.querySelectorAll('.reveal');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.15
+});
+
+revealElements.forEach(el => observer.observe(el));
+</script>
+
 </body>
 </html>
